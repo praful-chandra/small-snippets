@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.timebox {
+  margin-top: 20px;
+}
+
+.timebox input {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.timebox input::-webkit-outer-spin-button,
+.timebox input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
